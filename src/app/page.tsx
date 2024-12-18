@@ -159,6 +159,28 @@ export default function Page() {
           })}
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Certification</h2>
+          {RESUME_DATA.certification.map((certification) => {
+            return (
+              <Card key={certification.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <a href={`tel:${certification.link}`}>
+                      <h3 className="font-semibold leading-none">
+                        {certification.title}
+                      </h3>
+                    </a>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {certification.date_issue}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{certification.issuer}</CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
