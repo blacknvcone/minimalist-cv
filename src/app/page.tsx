@@ -131,9 +131,26 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 mb-2 text-xs">
                   {work.description}
                 </CardContent>
+                <div className="font-mono text-xs italic leading-none">
+                    Tech Stacks:
+                 </div>
+                <CardContent className="mt-2 text-xs mb-2">
+                {work.tech_stack}
+                </CardContent>
+                <div className="font-mono text-xs italic leading-none">
+                    Key Contributions:
+                 </div>
+                 <CardContent className="mt-2 text-xs">
+                  <ul className="list-disc list-outside ml-5">
+                  {work.key_contribution.map((item, index) => (
+                    <li className="pl-1 " key={index}>{item}</li>
+                  ))}
+                  </ul>
+                </CardContent>
+
               </Card>
             );
           })}

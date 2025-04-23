@@ -68,9 +68,16 @@ export const RESUME_DATA = {
       title: "Backend Engineer",
     // logo: EfisheryLogo,
       start: "2022",
-      end: "NOW",
+      end: "2025",
       description:
-        "Implemented new features, improving the way developers ship the code and make it eficient, and sometimes fixing bug :p. Technologies: Golang, Redis, PostgreSQL, GraphQL",
+        "Implemented new features, improving the way developers ship the code and make it eficient, and sometimes fixing bug :p.",
+      tech_stack:"Golang, Redis, RabbitMQ, PostgreSQL, GraphQL",  
+      key_contribution: [
+        'Improving transcation flow by integrating with some payment gateway module to ensure transaction was going flawlessly.',
+        'Ensure All API services was having SLA 99% to make eFisheryku Apps run smoothly.',
+        'Implemented caching strategies with Redis to optimize product listing response times.',
+        'Refactored legacy modules resulting in more efficient and maintainable codebases.',
+      ],
     },
     {
       company: "Majoo",
@@ -79,8 +86,14 @@ export const RESUME_DATA = {
       title: "Backend Engineer",
       start: "2021",
       end: "2022",
-      description:
-        "Responsible as backend engineer in internal product department. Hunting bug and maintain some code. Technologies: Golang, PHP, Kafka, PostgreSQL, GraphQL",
+      description:"Responsible as backend engineer in internal product department. Hunting bug and maintain some code.",
+      tech_stack:"Golang, Redis, PHP, PostgreSQL",  
+      key_contribution: [
+        'Maintained and extended Majoo POS, a Point of Sale application that generates real-time sales and customer analytics reports.',
+        'Built new APIs for sales performance dashboards to give business owners better visibility into operations.',
+        'Diagnosed and fixed issues with Kafka consumers, improving system stability and log accuracy.',
+        'Participated in code refactoring sprints to clean and modularize legacy services.',
+      ],
     },
     {
       company: "Kano Solution",
@@ -90,7 +103,12 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Responsible as full-stack engineer to maintain some existing and incoming project from client. Technologies: Golang, AWS, React, Javascript",
+        "Responsible as full-stack engineer to maintain some existing and incoming project from client.",
+        tech_stack:"Golang, AWS, React, Javascript",  
+        key_contribution: [
+          'Developed Adalink, a link-shortening application with Analytics dashboard showing click counts, referrers, and location insights',
+          'Used AWS services for hosting and CI/CD integration, improving deployment reliability',
+        ], 
     },
     {
       company: "Vascomm Solusi Teknologi",
@@ -100,7 +118,13 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2020",
       description:
-        "Responsible as supervisor at backend developement teams and act as senior backend engineer too, leading and managing task for teams relate with current project. Technologies: Node, PHP, Laravel, Javascript",
+        "Responsible as supervisor at backend developement teams and act as senior backend engineer too, leading and managing task for teams relate with current project.",
+        tech_stack:"Node, PHP, Laravel, Javascript", 
+        key_contribution: [
+          'Led backend development for Hasanah Mobile, a digital banking app for BNI Syariah by Enabled secure digital transactions and account management',
+          'Supervised and mentored a team of 5 backend developers',
+          'Conducted regular code reviews and introduced automated testing practices using PHPUnit and Mocha.',
+        ],
     },
     {
       company: "Politeknik Negeri Jember",
@@ -110,7 +134,13 @@ export const RESUME_DATA = {
       start: "2015",
       end: "2018",
       description:
-        "Responsible for the entire infrastructure, especially in the networking section in the academic community, ensuring the overall service runs well and efficiently. Technologies: Cisco",
+        "Responsible for the entire infrastructure, especially in the networking section in the academic community, ensuring the overall service runs well and efficiently.",
+        tech_stack:"Cisco", 
+        key_contribution: [
+          'Managed campus-wide network infrastructure, ensuring stable connectivity across academic services.',
+          'Implemented network monitoring and incident response strategies, reducing downtime by 40%.',
+          'Trained staff on basic network troubleshooting and maintenance.'
+        ],
     },
 
   ],
@@ -178,7 +208,7 @@ export const RESUME_DATA = {
     
     },
     {
-      title: "Simas Apps",
+      title: "EFinance Apps",
       techStack: ["Side Project","Laravel", "PHP", "MySQL"],
       description:
         "Budgeting and Cashflow Information System.Is an application that displays a summary of budget funds in an agency.",
