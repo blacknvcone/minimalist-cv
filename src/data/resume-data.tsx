@@ -15,7 +15,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
     "I am a dedicated software engineer with 7 years of experience in developing robust applications and managing relational database systems. My expertise encompasses a diverse range of programming languages, including Golang and JavaScript, complemented by a solid understanding of database technologies such as MySQL, MongoDB, and Redis. I am proficient in cloud services, including AWS and GCP, enabling me to design scalable solutions that perform seamlessly across platforms. In addition to my technical skills, I have a strong passion for technology and enjoy tinkering with gadgets while staying abreast of emerging tech trends. I thrive on problem-solving and possess a keen attention to detail, which drives my commitment to delivering high-quality software solutions.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/C4E03AQFG5dItfOn_dw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1604030603232?e=1740009600&v=beta&t=K6iStLmEEpLvL61fH_T_zj7oekpcEmbhrq_X_2iXTHw",
+  avatarUrl: "/images/profile.jpg",
   personalWebsiteUrl: "https://danipras.dev",
   contact: {
     email: "dani.prasetya.dev@gmail.com",
