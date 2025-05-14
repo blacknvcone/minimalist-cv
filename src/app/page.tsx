@@ -171,6 +171,9 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
+                <div className="font-mono text-xs italic leading-none">
+                   GPA : {education.gpa}
+                 </div>
               </Card>
             );
           })}

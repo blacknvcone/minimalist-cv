@@ -44,12 +44,14 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Informatics Engineering",
       start: "2016",
       end: "2019",
+      gpa: "3.23",
     },
     {
       school: "Politeknik Negeri Jember",
       degree: "Diploma in Informatics Engineering",
       start: "2012",
       end: "2015",
+      gpa: "3.50",
     },
   ],
   certification:[
@@ -71,12 +73,13 @@ export const RESUME_DATA = {
       end: "2025",
       description:
         "Implemented new features, improving the way developers ship the code and make it eficient, and sometimes fixing bug :p.",
-      tech_stack:"Golang, Redis, RabbitMQ, PostgreSQL, GraphQL",  
+      tech_stack:"Golang, Redis, RabbitMQ, PostgreSQL, GraphQL, OpenTelemetry, Elastic APM",  
       key_contribution: [
         'Improving transcation flow by integrating with some payment gateway module to ensure transaction was going flawlessly.',
         'Ensure All API services was having SLA 99% to make eFisheryku Apps run smoothly.',
         'Implemented caching strategies with Redis to optimize product listing response times.',
         'Refactored legacy modules resulting in more efficient and maintainable codebases.',
+        'Commit to initialize unit testing for all existing module handled.'
       ],
     },
     {
@@ -87,7 +90,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2022",
       description:"Responsible as backend engineer in internal product department. Hunting bug and maintain some code.",
-      tech_stack:"Golang, Redis, PHP, PostgreSQL",  
+      tech_stack:"Golang, Redis, PHP, PostgreSQL, Kafka",  
       key_contribution: [
         'Maintained and extended Majoo POS, a Point of Sale application that generates real-time sales and customer analytics reports.',
         'Built new APIs for sales performance dashboards to give business owners better visibility into operations.',
@@ -104,7 +107,7 @@ export const RESUME_DATA = {
       end: "2021",
       description:
         "Responsible as full-stack engineer to maintain some existing and incoming project from client.",
-        tech_stack:"Golang, AWS, React, Javascript",  
+        tech_stack:"Golang, RabbitMQ, AWS, React, Javascript",  
         key_contribution: [
           'Developed Adalink, a link-shortening application with Analytics dashboard showing click counts, referrers, and location insights',
           'Used AWS services for hosting and CI/CD integration, improving deployment reliability',
@@ -154,8 +157,12 @@ export const RESUME_DATA = {
     "PostgreSQL",
     "MySQL",
     "MongoDB",
+    "RabbitMQ",
     "Redis",
     "Kafka",
+    "OpenTelemetry",
+    "Elastic APM",
+    "Git",
     "Cisco",
   ],
   projects: [
@@ -176,7 +183,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Majoo POS",
-      techStack: ["Golang", "PHP", "MySQL", "Kafka"],
+      techStack: ["Golang", "PHP", "MySQL", "Kafka","RabbitMQ"],
       description:
         "The POS application provides detailed reports on sales performance, customer trends, and best-selling products.",
       //logo: MonitoLogo,
